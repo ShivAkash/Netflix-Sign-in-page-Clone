@@ -1,0 +1,223 @@
+#openLogin {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.logincontainer {
+    text-align: center;
+    width: 450px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 2px;
+}
+
+.remember {
+    justify-content: space-evenly;
+}
+
+input[type="checkbox"] {
+    accent-color: white;
+}
+
+.RemText {
+    text-align: left;
+    margin-left: 0px;
+}
+
+.newText {
+    margin-top: 90px;
+    left: 75px;
+    position: absolute;
+
+
+
+}
+
+.netText {
+    color: gray;
+}
+
+.signupText {
+    color: antiquewhite;
+    margin-left: 0px;
+}
+
+.needHelp {
+    color: gray;
+    margin-left: 90px;
+}
+
+.signinText {
+    font-weight: 100;
+    margin-top: 60px;
+    text-align: left;
+    margin-left: 70px;
+    color: white;
+}
+
+.usernameInput {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #36454F;
+    padding-left: 25px;
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+    font-size: larger;
+}
+
+.usernameInput::placeholder {
+    font-size: smaller;
+    font-family: Tahoma, sans-serif;
+    color: gray;
+}
+
+.passwordInput {
+
+    background-color: #36454F;
+    padding-left: 25px;
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+    margin: 20px;
+    font-size: larger;
+}
+
+.passwordInput::placeholder {
+    
+    font-size: smaller;
+    font-family: Tahoma, sans-serif;
+    color: gray;
+}
+
+.LoginBtnForm {
+    margin: 30px;
+    background-color: #E50914;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+body {
+    overflow-x: hidden;
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'PT Sans', sans-serif;
+    src: url(PTSans-Regular.ttf);
+}
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.netflix {
+    height: 100px;
+    top: 5px;
+    position: fixed;
+}
+
+footer {
+    margin-bottom: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    position: sticky;
+    opacity: 0.75;
+    color: white;
+    text-align: center;
+    display: inline-block;
+
+}
+
+#footerline1 {
+    left: 0;
+    bottom: 0;
+    margin-bottom: 150px;
+    position: absolute;
+    text-align: center;
+}
+
+#footerline2 {
+    left: 0;
+    bottom: 0;
+    margin-bottom: 100px;
+    position: absolute;
+    text-align: center;
+}
+
+footer>div {
+    display: flex;
+    justify-content: left;
+}
+
+footer>div>a {
+    color: gray;
+    margin-left: 200px;
+}
+
+.linkterms,
+.linkcontactmail,
+.linkcontacttel,
+.cookie {
+    margin-top: 1%;
+
+}
+
+.faq,
+.privacy {
+    margin-top: 2%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    margin: -80px;
+    padding: 0 0px;
+    perspective: 1000px;
+}
+
+.column {
+    transform-style: preserve-3d;
+    transform: rotateY(-10deg) rotateX(10deg);
+}
+
+.column img {
+    margin: 5px;
+    height: 200px;
+}
+
+
+.bimg {
+    float: left;
+    min-height: 100%;
+    height: 100%;
+    opacity: 0.25;
+}
+
+.bimg:hover {
+    transform: scale(1.05);
+    opacity: 0.3;
+    transition: 0.2s;
+}
